@@ -5,7 +5,11 @@ A dark Omarchy theme in the "liquid glass" style of the
 flat translucent near-black tint, 1px hairline borders, a vermilion
 Neovarch accent and mint-white text. **No gradients anywhere.**
 
-![Neovarch Glass](preview.png)
+![Neovarch Glass: default look](./preview.png)
+
+*Default look, as installed. With the optional window-glass snippet below:*
+
+![Neovarch Glass with optional window glass](./preview-glass.png)
 
 ## Install
 
@@ -28,7 +32,7 @@ reboot or a re-login.
 | `shell.toml` | Omarchy shell surfaces as glass: translucent tint (bar 62 %, popups/launcher/notifications ~80 %), 1px mint-white hairline borders, vermilion selection and focus. Every border is one solid colour. |
 | `icons.theme` | `Yaru-red` icons. |
 | `backgrounds/` | 18 wallpapers, 2560×1440. Default is the red chrome-star halftone; also its darker-edge variant, a noir pair, amber/cobalt/cyan/emerald/pink/violet pairs, and two flat Y2K-star wallpapers. Cycle with the Omarchy background switcher. |
-| `preview.png` | Theme picker preview. |
+| `preview.png` | Theme picker preview. `preview-glass.png` and `docs/` are README images only. |
 
 ### Palette
 
@@ -40,6 +44,14 @@ reboot or a re-login.
 | muted | `#8f8481` | 5.5 : 1 |
 | active window border | `#c1151a` | (UI only) |
 | selection | `#4a0b0e` | |
+
+## Wallpapers
+
+Eight colour variants of the chrome-star artwork (each in two crops), plus
+two flat Y2K-star wallpapers. Red is the default; cycle them with Omarchy's
+background switcher.
+
+![Wallpaper colour variants](./docs/wallpapers.jpg)
 
 ## Optional: window glass (rounded, blurred, translucent windows)
 
@@ -68,8 +80,8 @@ hl.config({
 o.transparent_window({ tag = "terminal" }, "0.92 0.86")
 ```
 
-Save the file; Hyprland reloads it automatically. `preview-glass.png`
-shows the result. To undo, delete the block.
+Save the file; Hyprland reloads it automatically. The second screenshot
+at the top shows the result. To undo, delete the block.
 
 ## Performance
 
