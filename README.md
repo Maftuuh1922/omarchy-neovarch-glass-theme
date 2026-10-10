@@ -76,8 +76,6 @@ hl.config({
   },
 })
 
--- A little more see-through terminals (active, inactive).
-o.transparent_window({ tag = "terminal" }, "0.92 0.86")
 ```
 
 Save the file; Hyprland reloads it automatically. The second screenshot
