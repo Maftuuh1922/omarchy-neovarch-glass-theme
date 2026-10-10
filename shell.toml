@@ -1,0 +1,141 @@
+# Neovarch Glass — Omarchy shell surfaces (replaces the generated shell.toml).
+# Liquid glass, Boxtop style: flat translucent near-black tint, 1px flat
+# mint-white hairline border, vermilion accent. No gradients anywhere: every
+# border below is a single solid colour.
+#
+# Rounded corners follow Hyprland's decoration:rounding (the shell mirrors it).
+# A theme installed from git cannot change that value; see README "Optional:
+# window glass" for the one-line opt-in.
+
+[bar]
+background       = "#0c0809"
+background-alpha = 0.62
+text             = "#dcf2e8"
+active           = "#e8341f"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+# Solid colours (no gradient). Surfaces below reference these tokens.
+active-border            = "#c1151a"
+active-border-foreground = "#dcf2e8"
+
+[controls]
+normal-color        = "#dcf2e8"
+normal-fill-alpha   = 0.05
+normal-border       = "#dcf2e8"
+normal-border-width = 1
+normal-border-alpha = 0.16
+
+hover-cursor-color        = "#dcf2e8"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#dcf2e8"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.28
+
+focus-color        = "#dcf2e8"
+focus-fill-alpha   = 0.10
+focus-border       = "#e8341f"
+focus-border-width = 1
+focus-border-alpha = 0.70
+
+selected-color        = "#f2fbf6"
+selected-fill-alpha   = 0.20
+selected-border       = "#e8341f"
+selected-border-width = 1
+selected-border-alpha = 0.60
+
+pressed-fill-alpha   = 0.24
+selection-fill-alpha = 0.40
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#0c0809"
+background-alpha = 0.80
+text             = "#dcf2e8"
+border           = "#dcf2e8"
+border-alpha     = 0.16
+border-width     = 1
+
+[tooltip]
+background       = "#0c0809"
+background-alpha = 0.90
+text             = "#dcf2e8"
+border           = "#dcf2e8"
+border-alpha     = 0.16
+
+[notifications]
+background       = "#0c0809"
+background-alpha = 0.80
+text             = "#dcf2e8"
+border           = "#dcf2e8"
+border-alpha     = 0.18
+border-width     = 1
+countdown        = "#e8341f"
+
+[launcher]
+background                = "#0c0809"
+background-alpha          = 0.80
+text                      = "#dcf2e8"
+border                    = "#dcf2e8"
+border-alpha              = 0.16
+scrim                     = "#0c0809"
+scrim-alpha               = 0.30
+selected-background       = "#e8341f"
+selected-background-alpha = 0.18
+selected-text             = "#f2fbf6"
+selected-border           = "#e8341f"
+selected-border-alpha     = 0.55
+
+[menu]
+background                = "#0c0809"
+background-alpha          = 0.82
+text                      = "#dcf2e8"
+border                    = "#dcf2e8"
+border-alpha              = 0.16
+scrim                     = "#0c0809"
+scrim-alpha               = 0.30
+selected-background       = "#e8341f"
+selected-background-alpha = 0.18
+selected-text             = "#f2fbf6"
+selected-border           = "#e8341f"
+selected-border-alpha     = 0.55
+
+[polkit]
+background       = "#0c0809"
+background-alpha = 0.88
+text             = "#dcf2e8"
+text-error       = "#f25a3c"
+border           = "#dcf2e8"
+border-error     = "#f25a3c"
+border-alpha     = 0.20
+scrim            = "#0c0809"
+scrim-alpha      = 0.50
+accent           = "#e8341f"
+
+[lock]
+background       = "#0c0809"
+background-alpha = 0.66
+text             = "#dcf2e8"
+placeholder      = "#7a8882"
+text-error       = "#f25a3c"
+border           = "#dcf2e8"
+border-active    = "#e8341f"
+border-error     = "#f25a3c"
+border-alpha     = 0.60
+selection        = "#e8341f"
+selection-alpha  = 0.45
+
+[image-picker]
+text                    = "#dcf2e8"
+selected-border         = "#e8341f"
+selected-border-alpha   = 1.0
+unselected-border       = "#dcf2e8"
+unselected-border-alpha = 0.28

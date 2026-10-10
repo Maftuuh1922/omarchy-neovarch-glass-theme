@@ -1,0 +1,41 @@
+# Neovarch Glass — Omarchy theme palette
+# Vermilion red and mint-white chrome taken from the Neovarch chrome-star
+# wallpapers, on near-black glass. Contrast against `background`:
+# foreground 17.0:1, accent 4.7:1, muted 5.5:1.
+mode = "dark"
+
+accent = "#e8341f"
+selection = "#4a0b0e"
+selection_foreground = "#f2fbf6"
+muted = "#8f8481"
+
+background = "#0c0809"
+dark_background = "#090607"
+darker_background = "#050304"
+lighter_background = "#1a1213"
+
+foreground = "#dcf2e8"
+dark_foreground = "#8f8481"
+light_foreground = "#c4d9cf"
+bright_foreground = "#f2fbf6"
+
+red = "#e8341f"
+yellow = "#f0b45e"
+orange = "#f2703a"
+green = "#8fd4b4"
+cyan = "#9fe0d6"
+blue = "#8aa9d6"
+magenta = "#e07a8e"
+brown = "#7a2f1c"
+
+bright_red = "#f25a3c"
+bright_yellow = "#f6c983"
+bright_green = "#b0e3cb"
+bright_cyan = "#c0ece5"
+bright_blue = "#aac2e4"
+bright_magenta = "#eb9db0"
+
+# Hyprland window borders: one flat colour each, never a gradient.
+# Active = the wallpapers' vermilion; inactive = a faint mint-white hairline.
+hyprland_active_border = "rgba(c1151aee)"
+hyprland_inactive_border = "rgba(dcf2e826)"
